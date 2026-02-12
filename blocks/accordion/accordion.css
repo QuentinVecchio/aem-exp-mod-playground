@@ -1,0 +1,30 @@
+.accordion > div {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.accordion-question {
+  cursor: pointer;
+  padding: 16px 0;
+  font-weight: 600;
+  position: relative;
+  padding-right: 30px;
+}
+
+.accordion-question::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.accordion-question.open::after {
+  content: '−';
+}
+
+.accordion-answer {
+  padding: 0 0 16px;
+  color: #555;
+}

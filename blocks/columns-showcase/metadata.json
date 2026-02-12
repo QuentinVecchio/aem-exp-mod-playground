@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-showcase",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-06T17:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--aem-boilerplate--adobe.aem.live/",
+    "originPage": "AEM Boilerplate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "text + list + button | image, image | text + button",
+    "buttonCount": 2,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature showcase sections",
+      "content with mixed text and images",
+      "pages with side-by-side layouts"
+    ],
+    "notSuitableFor": [
+      "simple text-only columns",
+      "data comparison tables",
+      "icon-based feature lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-06T17:07:00.000Z"
+  }
+}

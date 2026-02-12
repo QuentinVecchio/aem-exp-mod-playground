@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-landing",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-02-06T17:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--aem-boilerplate--adobe.aem.live/",
+    "originPage": "AEM Boilerplate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "landing-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "landing pages with background images",
+      "homepage hero banners",
+      "pages with prominent visual headers"
+    ],
+    "notSuitableFor": [
+      "text-only hero sections",
+      "heroes with multiple CTAs",
+      "product detail pages"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-06T17:07:00.000Z"
+  }
+}
