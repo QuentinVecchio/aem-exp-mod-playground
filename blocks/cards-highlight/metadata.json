@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-highlight",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-06T17:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://main--aem-boilerplate--adobe.aem.live/",
+    "originPage": "AEM Boilerplate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "feature-highlights",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + bold-title + description",
+    "buttonCount": 0,
+    "imageCount": 7
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature highlight sections",
+      "product benefit cards",
+      "team member showcases"
+    ],
+    "notSuitableFor": [
+      "text-only card layouts",
+      "pricing cards with CTAs",
+      "article listing cards with dates"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-06T17:07:00.000Z"
+  }
+}

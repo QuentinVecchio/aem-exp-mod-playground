@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "name": "boilerplate-homepage",
+      "urls": ["https://main--aem-boilerplate--adobe.aem.live/"],
+      "description": "AEM Boilerplate homepage with hero banner, columns showcase, and feature highlight cards",
+      "blocks": [
+        {
+          "name": "hero-landing",
+          "instances": [".hero.block"]
+        },
+        {
+          "name": "columns-showcase",
+          "instances": [".columns.block"]
+        },
+        {
+          "name": "cards-highlight",
+          "instances": [".cards.block"]
+        },
+        {
+          "name": "section-highlight",
+          "instances": [".section.highlight"],
+          "section": "highlight"
+        }
+      ]
+    },
+    {
+      "name": "wknd-homepage",
+      "urls": ["https://wknd.site/us/en.html"],
+      "description": "WKND homepage with hero carousel, featured article columns, article cards grid, adventure hero section, and adventure cards grid with highlight section",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [".cmp-carousel"]
+        },
+        {
+          "name": "columns-featured",
+          "instances": ["#featured-teaser-home"]
+        },
+        {
+          "name": "cards-articles",
+          "instances": [".cmp-image-list"]
+        },
+        {
+          "name": "hero-adventure",
+          "instances": ["#teaser-ef0ce278d1"]
+        },
+        {
+          "name": "section-highlight",
+          "instances": [".container.responsivegrid:has(.cmp-image-list):last-of-type"],
+          "section": "highlight"
+        }
+      ]
+    }
+  ]
+}
